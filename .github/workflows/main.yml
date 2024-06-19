@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: actions/checkout@v4
+        uses: pankaj-tayade/actions@v2
         with:
          path: test/action.yml
       - run: echo random-number "$RANDOM_NUMBER"
