@@ -9,7 +9,7 @@ jobs:
       - id: foo
         uses: pankaj-tayade/actions@v2
         with:
-         path: test/action.yml
+         path: .github/test/action.yml
       - run: echo random-number "$RANDOM_NUMBER"
         shell: bash
         env:
